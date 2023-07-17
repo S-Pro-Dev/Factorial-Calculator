@@ -18,5 +18,6 @@ function find() {
     const resultElement = document.createElement("p");
     resultElement.textContent = result;
     resultElement.classList.add("res");
+    resElement.innerHTML = "";
     resElement.appendChild(resultElement);
 }
